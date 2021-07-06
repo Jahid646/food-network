@@ -3,12 +3,16 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    height: 700px;
+    /* height: 700px; */
     padding-bottom: 100px;
+}
+h1 span{
+    color:orange;
 }
 p{
     font-size: 18px;
 }
+
 .half-width{
     width:40%;  
     float: left;
@@ -20,9 +24,6 @@ p{
     font-size: 54px;
     color: #666666;
     font-weight: 700;
-}
-h1 span{
-    color:orange;
 }
 .top-banner p {
     padding-bottom: 50px;
