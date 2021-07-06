@@ -3,7 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    height: 800px;
+    height: 700px;
     padding-bottom: 150px;
 }
 .half-width{
@@ -30,7 +30,7 @@ h1 span{
 #first-text{
     margin-top: 200px;
 }
-.half-width img{
+#first-img{
     width: 100%;
     background-image: url(images/shapes/8.png);
     background-repeat: no-repeat;
@@ -40,11 +40,30 @@ h1 span{
 .anchor-button{
     text-decoration: none;
     background: linear-gradient(90deg, rgba(240, 110, 20, 0.8), rgba(224, 24, 9, 0.8));
-    margin-top: 200px;
     padding: 20px 40px;
     border-radius: 50px;
     box-shadow: #ff634740 0px 0px 16px 2px;
     color: white;
     font-weight: 700;
+}
+.second-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.second-banner img{
+    width: 56%;
+    padding-left: 150px;
+
+}
+.second-banner h1{
+    font-size: 40px;
+    color: dimgray;
+
+}
+.second-banner p{
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 50px;
+
 }
 
